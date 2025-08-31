@@ -16,4 +16,4 @@
           Jugar Ahora
         </button>
       </div>
-    `,i}getGameIcon(e){switch(e.id){case"snake":return`<img src="${r}" alt="snake" class="game-icon"/>`;case"tetris":return`<img src="${l}" alt="tetris" class="game-icon"/>`;case"flappy-bird":return`<img src="${o}" alt="flappy bird" class="game-icon"/>`;default:return'<span class="text-white text-2xl">🎮</span>'}}handleGameSelect(e,c){console.log(`Navegando a ${e}`),window.location.href=c}}document.addEventListener("DOMContentLoaded",()=>{new h});
+    `,i}getGameIcon(e){switch(e.id){case"snake":return`<img src="${r}" alt="snake" class="game-icon"/>`;case"tetris":return`<img src="${l}" alt="tetris" class="game-icon"/>`;case"flappy-bird":return`<img src="${o}" alt="flappy bird" class="game-icon"/>`;default:return'<span class="text-white text-2xl">🎮</span>'}}handleGameSelect(e,c){console.log(`Navegando a ${e}`),window.location.href=`${c}index.html`}}document.addEventListener("DOMContentLoaded",()=>{new h});
